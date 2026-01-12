@@ -1585,6 +1585,10 @@ footer {
 
     #info-list1,
     #info-list2 {
-        justify-self: left;
+        font-size: 90%;
+    }
+
+    #information4-head {
+        font-size: 130%;
     }
 }
