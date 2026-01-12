@@ -1,0 +1,1585 @@
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #1B3C53;
+}
+
+main {
+    display: grid;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 80% 1fr 1fr;
+}
+
+#logo {
+    left: 5%;
+    top: 0;
+    width: 6%;
+}
+
+#search {
+    justify-self: right;
+    align-self: center;
+    width: 25%;
+}
+
+#login {
+    justify-self: end;
+    align-self: center;
+    margin-right: 25%;
+    color: white;
+    font-size: large;
+}
+
+#login-link {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    width: 100%;
+    justify-self: center;
+    position: relative;
+    z-index: 1;
+}
+
+#herotext {
+    position: absolute;
+    justify-self: center;
+    text-align: center;
+    z-index: 2;
+    top: 20%;
+    border: 2px solid #456882;
+    background-color: #456882;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#hero-head {
+    font-size: 350%;
+    color: white;
+    margin-bottom: 12%;
+}
+
+#hero-subhead {
+    font-size: 200%;
+    color: white;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+}
+
+#menu-section {
+    display: grid;
+    justify-self: center;
+    border: 2px solid #456882;
+    background-color: #456882;
+    width: 90%;
+    margin-top: 5%;
+}
+
+#menu {
+    text-align: center;
+    color: white;
+    font-size: 250%;
+    letter-spacing: 0.5px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#menu-div {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-bottom: 6%;
+}
+
+#menu-list {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    list-style: none;
+    width: 75%;
+    margin-left: 2%;
+}
+
+#menu-1,
+#menu-2,
+#menu-3 {
+    border: 1px solid #8FABD4;
+    background-color: #284575;
+    padding: 4%;
+    margin-bottom: 8%;
+    text-align: center;
+}
+
+#menu-4 {
+    border: 1px solid #8FABD4;
+    background-color: #284575;
+    padding: 4%;
+    text-align: center;
+}
+
+#link-1,
+#link-2,
+#link-3,
+#link-4 {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.8px;
+    font-size: 130%;
+}
+
+.active {
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    padding-bottom: 1%;
+    padding-left: 3%;
+}
+
+#transfer-image {
+    width: 75%;
+    justify-self: center;
+    align-self: center;
+}
+
+#returresa {
+    margin-left: 3%;
+}
+
+#contact-section {
+    display: grid;
+    color: white;
+    font-size: 130%;
+    letter-spacing: 0.5px;
+    line-height: 80%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+#confirmation-section,
+#cancel-section {
+    display: grid;
+}
+
+#booking-section,
+#second-booking {
+    display: grid;
+    width: 90%;
+    justify-self: center;
+    border: 2px solid #456882;
+    background-color: #456882;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 3%;
+}
+
+#booking-head {
+    color: white;
+    font-size: 250%;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+#booking2-head {
+    color: white;
+    font-size: 250%;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+::placeholder {
+    color: white;
+}
+
+#form-list,
+#login-list {
+    display: grid;
+    list-style: none;
+    padding-left: 0;
+}
+
+#enkelresa,
+#returresa {
+    transform: scale(1.8);
+}
+
+#travel-li {
+    text-align: center;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 140%;
+}
+
+input[type="radio"] {
+    accent-color: #1B3C53;
+    width: 2%;
+}
+
+#date-li,
+#gotime-li,
+#picup-li,
+#destination-li,
+#middlestop-li {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+    margin-top: 4%;
+    width: 100%;
+}
+
+#hometime-li {
+    justify-self: center;
+    text-align: center;
+    margin-top: 4%;
+    width: 100%;
+}
+
+#return-info,
+#login-confirmation {
+    display: grid;
+    text-align: center;
+    color: white;
+    margin-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#forgotPassword {
+    justify-self: center;
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    width: 80%;
+    line-height: 1.5;
+}
+
+
+#information-li {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+    margin-top: 4%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#forvard-li {
+    display: grid;
+    justify-self: left;
+    text-align: center;
+    margin-top: 6%;
+    width: 100%;
+}
+
+#secondForm {
+    display: grid;
+    padding-left: 0;
+}
+
+#send-li,
+#change-li {
+    display: grid;
+    justify-items: center;
+    margin-top: 6%;
+    width: 100%;
+}
+
+#cancel-li {
+    display: grid;
+    justify-items: center;
+    margin-top: 3%;
+    width: 100%;
+}
+
+#date-label,
+#gotime-label,
+#hometime-label,
+#picup-label,
+#destination-label {
+    margin-bottom: 1%;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 140%;
+}
+
+#date,
+#gotime,
+#hometime,
+#picup,
+#destination,
+#middlestop {
+    justify-self: center;
+    background-color: #284575;
+    border: none;
+    height: 50px;
+    width: 35%;
+    color: white;
+    font-size: 120%;
+    padding-left: 1%;
+}
+
+#forvard {
+    background-color: #1B3C53;
+    border: 2px solid white;
+    height: 45px;
+    width: 15%;
+    color: white;
+    font-size: 120%;
+    margin-left: 3%;
+}
+
+
+#send {
+    background-color: #1B3C53;
+    border: 2px solid white;
+    height: 45px;
+    width: 15%;
+    color: white;
+    font-size: 120%;
+}
+
+#booking-list,
+#button-list,
+#report-list {
+    padding-left: 1%;
+}
+
+#booking-list li {
+    margin-bottom: 5%;
+}
+
+
+#cancel {
+    background-color: #1B3C53;
+    border: 2px solid white;
+    height: 45px;
+    width: 30%;
+    color: white;
+    font-size: 120%;
+}
+
+
+#change {
+    background-color: #284268;
+    border: 2px solid white;
+    height: 45px;
+    width: 30%;
+    color: white;
+    font-size: 120%;
+}
+
+
+#back,
+#login-button {
+    background-color: #1B3C53;
+    border: 2px solid white;
+    height: 45px;
+    width: 15%;
+    color: white;
+    font-size: 120%;
+    margin-left: 3%;
+}
+
+
+#account-button {
+    background-color: #1B3C53;
+    border: 2px solid white;
+    height: 45px;
+    width: 15%;
+    color: white;
+    font-size: 120%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+#back-li {
+    display: grid;
+    justify-self: left;
+    text-align: center;
+    margin-top: 1%;
+    width: 100%;
+}
+
+#helptools-li {
+    display: grid;
+    justify-self: center;
+    text-align: start;
+    margin-top: 4%;
+    width: 100%;
+}
+
+#help-tools {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+    align-content: center;
+    border: none;
+    height: 55px;
+    width: 75%;
+    color: white;
+    font-size: 120%;
+    background-color: #284575;
+    margin-bottom: 2%;
+}
+
+#helptools-field,
+#repeat-field {
+    justify-self: center;
+    border: none;
+    background-color: rgb(204, 214, 248);
+    line-height: 2em;
+    width: 35%;
+}
+
+#help1-label,
+#help2-label,
+#help3-label,
+#help4-label,
+#help5-label,
+#repeat1-label,
+#repeat2-label,
+#repeat3-label {
+    color: #1B3C53;
+    letter-spacing: 1px;
+    padding-left: 2%;
+    font-size: 120%;
+}
+
+input[type="checkbox"] {
+    accent-color: #1B3C53;
+    width: 20px;
+    height: 20px;
+}
+
+#help1,
+#repeat1 {
+    padding-top: 0;
+}
+
+#help5,
+#repeat3 {
+    margin-bottom: 8%;
+}
+
+#middlestop-label,
+#information-label {
+    margin-bottom: 1%;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 140%;
+}
+
+#information {
+    justify-self: center;
+    background-color: #284575;
+    border: none;
+    width: 35%;
+    color: white;
+    font-size: 120%;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+#repeat-li {
+    display: grid;
+    justify-self: center;
+    text-align: start;
+    margin-top: 6%;
+    width: 100%;
+}
+
+#repeat-head {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+    align-content: center;
+    border: none;
+    height: 55px;
+    width: 75%;
+    color: white;
+    font-size: 120%;
+    background-color: #284575;
+    margin-bottom: 2%;
+}
+
+#confirmation,
+#cancellation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background: rgb(222, 227, 247);
+    padding-top: 8%;
+    padding-bottom: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 8px;
+}
+
+#confirm-head,
+#cancel-head {
+    font-size: 200%;
+    color: #1B3C53;
+    text-align: center;
+}
+
+#booking-text1,
+#booking-text2,
+#cancel-text1,
+#cancel-text2 {
+    margin-top: 8%;
+    font-size: 150%;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+
+#changes-info {
+    font-size: 90%;
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-left: 0;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.grid {
+    display: grid;
+}
+
+.hidden {
+    display: none;
+}
+
+#close,
+#close2 {
+    display: grid;
+    justify-self: center;
+    background-color: #1B3C53;
+    border: 2px solid white;
+    height: 45px;
+    width: 35%;
+    color: white;
+    font-size: 120%;
+    margin-top: 8%;
+}
+
+#travels-section,
+#contactinfo-section,
+#find-section,
+#login-section,
+#information-section {
+    display: grid;
+    width: 100%;
+    justify-self: center;
+}
+
+#travels-head,
+#contact-head,
+#find-head,
+#login-head {
+    display: grid;
+    justify-self: center;
+    font-size: 200%;
+    color: white;
+    margin-top: 5%;
+}
+
+#travel1-head,
+#contact1-head,
+#find1-head,
+#login1-head {
+    font-size: 160%;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#travel1-article,
+#contact-article,
+#find-article,
+#login-article {
+    display: grid;
+    justify-self: center;
+    background-color: #456882;
+    width: 60%;
+    line-height: 1em;
+    padding-bottom: 5%;
+}
+
+#login1-label,
+#login2-label {
+    display: grid;
+    justify-self: left;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    color: white;
+    font-size: 120%;
+    letter-spacing: 1px;
+}
+
+#login1,
+#login2 {
+    display: grid;
+    justify-self: left;
+    background-color: #284575;
+    border: none;
+    height: 50px;
+    width: 35%;
+    color: white;
+    font-size: 120%;
+    padding-left: 2%;
+    margin-bottom: 4%;
+    margin-left: 3%;
+}
+
+#trav-info1,
+#trav-info2,
+#trav-info3,
+#trav-info4,
+#trav-info5,
+#trav-info6,
+#trav-info7,
+#trav-info8,
+#trav-info9,
+#trav-info10,
+#adress1,
+#adress2 {
+    margin-left: 10%;
+    color: white;
+    font-size: 140%;
+    letter-spacing: 1.5px;
+}
+
+#phone-head,
+#phoneNumber,
+#phoneInfo,
+#mail-head,
+#mailAdress,
+#phoneInfo,
+#mailInfo {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    font-size: 130%;
+    letter-spacing: 1px;
+}
+
+#info-line1,
+#info-line2,
+#info-line3,
+#info-line4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#information1-article,
+#information2-article {
+    display: grid;
+    width: 85%;
+    justify-self: center;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 1%;
+    background-color: #456882;
+    color: white;
+    letter-spacing: 1.5px;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    font-size: 120%;
+    line-height: 1.5em;
+}
+
+#information3-article,
+#information4-article {
+    display: grid;
+    width: 85%;
+    justify-self: center;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 1%;
+    background-color: #456882;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 120%;
+    line-height: 1.5em;
+}
+
+#information5-article {
+    display: grid;
+    width: 60%;
+    justify-self: center;
+    margin-top: 5%;
+    padding: 3%;
+    background-color: #456882;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+#information6-article,
+#information7-article,
+#information8-article,
+#information9-article {
+    width: 85%;
+    justify-self: center;
+    margin-top: 5%;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 1%;
+    background-color: #456882;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 120%;
+    line-height: 1.5em;
+}
+
+#information1-head {
+    font-size: 150%;
+    margin-bottom: 0;
+}
+
+
+#information2-head,
+#information3-head,
+#information4-head,
+#information5-head {
+    font-size: 150%;
+}
+
+#information6-head {
+    display: grid;
+    justify-self: center;
+    font-size: 170%;
+    margin-top: 3%;
+    margin-bottom: 0;
+    color: white;
+}
+
+#info2-text5,
+#info2-text8 {
+    font-size: 80%;
+}
+
+#info1-text1,
+#info1-text2,
+#info1-text3,
+#info1-text4,
+#info2-text1,
+#info2-text2,
+#info2-text3,
+#info2-text4,
+#info2-text5,
+#info2-text6,
+#info2-text7,
+#info2-text8,
+#info3-text1,
+#info3-text2,
+#info3-text3,
+#info3-text4,
+#info3-text5,
+#info3-text6,
+#info3-text7,
+#info4-text1,
+#info4-text2,
+#info4-text3,
+#info4-text4,
+#info4-text5,
+#info6-text1,
+#info6-text2,
+#info7-text1,
+#info7-text2,
+#info8-text1,
+#info8-text2,
+#info8-text3,
+#info9-text1,
+#info9-text2,
+#info9-text3 {
+    max-width: 58ch;
+}
+
+
+
+#info-list1,
+#info-list2,
+#info-list3,
+#info-list4 {
+    max-width: 60ch;
+}
+
+#info-list1,
+#info-list2,
+#info-list3,
+#info-list4 {
+    line-height: 2em;
+}
+
+#report-list {
+    list-style: none;
+    line-height: 3em;
+    font-size: 120%;
+}
+
+#report-name,
+#report-mail {
+    background-color: #284575;
+    border: none;
+    height: 40px;
+    width: 50%;
+    color: white;
+    padding-left: 1%;
+    margin-bottom: 2%;
+    font-size: 90%;
+}
+
+#report-text {
+    background-color: #284575;
+    border: none;
+    height: 80px;
+    width: 50%;
+    color: white;
+    padding-left: 2%;
+    padding-top: 2%;
+    font-size: 90%;
+}
+
+#report-button {
+    background-color: #1B3C53;
+    border: 2px solid white;
+    height: 45px;
+    width: 25%;
+    color: white;
+    font-size: 100%;
+    margin-top: 3%;
+}
+
+#report-confirmation {
+    width: 85%;
+    background-color: #1B3C53;
+    margin-top: 3%;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+footer {
+    display: grid;
+    background-color: #456882;
+    width: 100%;
+    margin-top: 6%;
+}
+
+#footer-start {
+    display: grid;
+    margin-top: 2%;
+}
+
+#footertext1,
+#footertext2 {
+    display: grid;
+    justify-self: center;
+    color: white;
+}
+
+#footer-section {
+    display: grid;
+    width: 100%;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#fotlink1,
+#fotlink2,
+#fotlink3 {
+    color: white;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1600px) {
+
+    #forvard,
+    #back {
+        font-size: 100%;
+        width: 25%;
+    }
+
+    #contact-article {
+        width: 75%;
+    }
+
+    #login1,
+    #login2 {
+        width: 50%;
+    }
+
+    #login-button,
+    #account-button {
+        width: 25%;
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+    header {
+        grid-template-columns: 65% 1fr 1fr;
+    }
+
+    #logo {
+        width: 10%;
+    }
+
+    #herotext {
+        top: 20%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    #menu-div {
+        grid-template-columns: 40% 60%;
+    }
+
+    #menu-list {
+        width: 80%;
+    }
+
+    #link-1,
+    #link-2,
+    #link-3,
+    #link-4 {
+        font-size: 110%;
+    }
+
+    #change,
+    #cancel,
+    #send {
+        width: 40%;
+    }
+
+    #helptools-field,
+    #middlestop,
+    #repeat-field,
+    #information {
+        width: 50%;
+    }
+
+    #close,
+    #close2 {
+        width: 30%;
+        margin-top: 10%;
+    }
+
+    #confirmation,
+    #cancellation {
+        width: 65%;
+    }
+
+    #confirm-head,
+    #cancel-head {
+        font-size: 190%;
+    }
+
+    #booking-text1,
+    #booking-text2,
+    #cancel-text1,
+    #cancel-text2 {
+        font-size: 130%;
+    }
+
+    #contact-article {
+        width: 85%;
+    }
+
+}
+
+@media only screen and (max-width: 1250px) {
+
+    #herotext {
+        top: 15%;
+    }
+}
+
+
+@media only screen and (max-width: 1050px) {
+
+    #hero-head {
+        font-size: 300%;
+    }
+
+    #hero-subhead,
+    #login-head {
+        font-size: 150%;
+    }
+
+    #herotext {
+        top: 11.5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #menu {
+        font-size: 200%;
+    }
+
+    #menu-div {
+        grid-template-columns: 1fr;
+    }
+
+    #transfer-image {
+        display: none;
+    }
+
+    #menu-list {
+        width: 50%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #logo {
+        width: 12%;
+    }
+
+    #date,
+    #gotime,
+    #hometime,
+    #picup,
+    #destination {
+        width: 50%;
+    }
+
+    #forvard {
+        font-size: 90%;
+    }
+
+
+    #back {
+        font-size: 90%;
+        width: 30%;
+    }
+
+    #travels-head {
+        font-size: 180%;
+    }
+
+    #travel1-article {
+        width: 80%;
+    }
+
+    #change,
+    #cancel {
+        width: 50%;
+    }
+
+    #info-line1,
+    #info-line2,
+    #info-line3,
+    #info-line4 {
+        grid-template-columns: 1fr;
+    }
+
+    #information3-article,
+    #information4-article {
+        margin-bottom: 8%;
+    }
+
+    #information5-article {
+        margin-top: 0;
+        width: 80%;
+    }
+
+    #information6-head {
+        margin-top: 5%;
+    }
+
+    #information5-head {
+        justify-self: center;
+    }
+
+    #report-name,
+    #report-mail,
+    #report-text {
+        width: 60%;
+    }
+
+    #report-button {
+        width: 45%;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    #helptools-field,
+    #middlestop,
+    #repeat-field,
+    #information {
+        width: 70%;
+    }
+
+    #confirm-head,
+    #cancel-head,
+    #find-head {
+        font-size: 180%;
+    }
+
+    #close,
+    #close2 {
+        width: 45%;
+        font-size: 100%;
+    }
+
+    #booking-text1,
+    #booking-text2,
+    #cance-text1,
+    #cacenl-text2 {
+        font-size: 120%;
+    }
+
+    #contact-article,
+    #find-article {
+        width: 90%;
+    }
+
+    #contact1-head,
+    #find1-head {
+        font-size: 140%;
+    }
+
+    #phone-head,
+    #mail-head,
+    #login1-head {
+        font-size: 110%;
+    }
+
+    #phone-part,
+    #mail-part,
+    #location {
+        font-size: 80%;
+    }
+
+    #login1,
+    #login2 {
+        width: 70%;
+    }
+
+    #login-button,
+    #account-button {
+        width: 40%;
+        margin-left: 4%;
+        margin-top: 5%;
+    }
+
+    #login1-label,
+    #login2-label,
+    #login1,
+    #login2 {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    header {
+        grid-template-columns: 55% 1fr 1fr;
+    }
+
+    #logo {
+        width: 20%;
+    }
+
+    #hero-head {
+        font-size: 220%;
+    }
+
+    #hero-subhead {
+        font-size: 140%;
+    }
+
+    #herotext {
+        padding-top: 0%;
+        padding-bottom: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+        top: 12%;
+    }
+
+    #contact-section,
+    #find1-head {
+        font-size: 100%;
+    }
+
+    #booking-head,
+    #booking2-head {
+        font-size: 200%;
+    }
+
+    #date,
+    #gotime,
+    #hometime,
+    #picup,
+    #destination {
+        width: 70%;
+    }
+
+    #forvard {
+        width: 35%;
+    }
+
+    #travels-head,
+    #find-head {
+        font-size: 150%;
+    }
+
+    #travel1-head {
+        font-size: 140%;
+    }
+
+    #change,
+    #cancel {
+        width: 70%;
+    }
+
+    #booking-list {
+        font-size: 80%;
+    }
+
+    #changes-info {
+        font-size: 70%;
+    }
+
+    #contact1-head {
+        font-size: 120%;
+    }
+
+    #phone-head,
+    #mail-head {
+        font-size: 110%;
+    }
+
+    #phoneInfo {
+        line-height: 2em;
+    }
+
+    #login-article {
+        width: 75%;
+    }
+
+    #location {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    header {
+        grid-template-columns: 45% 1fr 1fr;
+    }
+
+    #logo {
+        width: 30%;
+    }
+
+    #hero-head {
+        font-size: 150%;
+    }
+
+    #hero-subhead {
+        font-size: 110%;
+    }
+
+    #herotext {
+        top: 10%;
+    }
+
+    #menu {
+        font-size: 170%;
+    }
+
+    #menu-list {
+        width: 65%;
+    }
+
+    .active {
+        border-bottom: 3px solid white;
+        border-left: 3px solid white;
+    }
+
+    #contact-section {
+        font-size: 80%;
+    }
+
+    #booking-head,
+    #booking2-head,
+    #contact-head {
+        font-size: 150%;
+    }
+
+    #date,
+    #gotime,
+    #hometime,
+    #picup,
+    #destination {
+        width: 85%;
+        margin-bottom: 5%;
+        font-size: 100%;
+        height: 35px;
+    }
+
+    #travels-head {
+        font-size: 125%;
+    }
+
+    #travel1-head {
+        font-size: 120%;
+    }
+
+    #change,
+    #cancel,
+    #send {
+        font-size: 90%;
+        width: 65%;
+    }
+
+    #booking-list {
+        font-size: 70%;
+    }
+
+    #information1-article,
+    #information2-article,
+    #information3-article,
+    #information4-article,
+    #information6-article,
+    #information7-article,
+    #information8-article,
+    #information9-article {
+        width: 90%;
+        font-size: 100%;
+        padding-right: 2%;
+    }
+
+    #information5-article {
+        width: 90%;
+        font-size: 90%;
+    }
+
+    #report-name,
+    #report-mail,
+    #report-text {
+        width: 80%;
+        font-size: 80%;
+    }
+
+    #back {
+        width: 50%;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    #helptools-field,
+    #repeat-field,
+    #repeat-head {
+        width: 85%;
+    }
+
+    #middlestop {
+        width: 85%;
+        padding-left: 2%;
+    }
+
+
+    #information {
+        width: 85%;
+        padding-left: 2%;
+        padding-top: 4%;
+    }
+
+    #confirm-head,
+    #cancel-head {
+        font-size: 140%;
+    }
+
+    #booking-text1,
+    #booking-text2,
+    #cancel-text1,
+    #cancel-text2 {
+        font-size: 85%;
+    }
+
+    #contact-article {
+        font-size: 85%;
+    }
+
+    #login-article {
+        width: 95%;
+    }
+
+    #return-info {
+        font-size: 80%;
+    }
+
+    #report-confirmation {
+        width: 95%;
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    #forvard,
+    #report-button,
+    #back,
+    #close {
+        width: 65%;
+        margin-left: 0;
+    }
+
+    header {
+        grid-template-columns: 35% 1fr 35%;
+    }
+
+    #logo {
+        width: 40%;
+    }
+
+    #search {
+        margin-right: 4%;
+    }
+
+    #login {
+        margin-right: 12%;
+    }
+
+    #login1,
+    #login2 {
+        width: 80%;
+    }
+
+    #hero-head {
+        font-size: 145%;
+    }
+
+    #hero-subhead {
+        font-size: 100%;
+    }
+
+    #herotext {
+        top: 11.5%;
+    }
+
+    #menu {
+        font-size: 140%;
+    }
+
+    #middlestop-li,
+    #information-li {
+        margin-top: 8%;
+        margin-bottom: 3%;
+    }
+
+    #link-1,
+    #link-2,
+    #link-3,
+    #link-4 {
+        font-size: 90%;
+    }
+
+    #lab1,
+    #lab2 {
+        font-size: 80%;
+    }
+
+
+    #date-label,
+    #gotime-label,
+    #hometime-label,
+    #picup-label,
+    #destination-label,
+    #middlestop-label,
+    #middlestop,
+    #help-tools,
+    #repeat-head,
+    #information-label,
+    #information {
+        font-size: 100%;
+    }
+
+    #travel1-article {
+        width: 90%;
+    }
+
+    #contact1-head,
+    #find1-head {
+        line-height: 1.5em;
+    }
+
+    #confirmation,
+    #cancellation {
+        width: 85%;
+    }
+
+    #login-confirmation {
+        margin-top: 12%;
+        margin-bottom: 6%;
+        font-size: 80%;
+    }
+
+    #info1-text1,
+    #info1-text2,
+    #info1-text3,
+    #info1-text4,
+    #info2-text1,
+    #info2-text2,
+    #info2-text3,
+    #info2-text4,
+    #info2-text5,
+    #info2-text6,
+    #info2-text7,
+    #info2-text8,
+    #info3-text1,
+    #info3-text2,
+    #info3-text3,
+    #info3-text4,
+    #info3-text5,
+    #info3-text6,
+    #info3-text7,
+    #info4-text1,
+    #info4-text2,
+    #info4-text3,
+    #info4-text4,
+    #info4-text5,
+    #info6-text1,
+    #info6-text2,
+    #info7-text1,
+    #info7-text2,
+    #info8-text1,
+    #info8-text2,
+    #info8-text3,
+    #info9-text1,
+    #info9-text2,
+    #info9-text3 {
+        width: 85%;
+    }
+}

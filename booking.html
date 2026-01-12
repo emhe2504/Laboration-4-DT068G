@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transfer services">
+    <title>Din färd</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <a href="index.html"><img id="logo" src="fardlogo.svg" alt="Logotyp för webbplatsen"></a>
+            <img id="search" src="sok.svg" alt="Sök på webbplatsen">
+            <p class="roboto-bold" id="login"><a id="login-link" href="mypages.html">Mina sidor</a></p>
+        </header>
+        <main>
+            <img id="hero" src="fardHero.webp" alt="vackert landskap med bilväg, grön natur och rött hus">
+            <article id="herotext">
+                <h1 class="roboto-bold" id="hero-head">Din Färd</h1>
+                <p class="roboto" id="hero-subhead">Färdtjänst för dina behov</p>
+            </article>
+            <section id="menu-section">
+                <h2 id="menu" class="roboto-bold">Meny</h2>
+                <div id="menu-div">
+                    <ul id="menu-list">
+                        <li class="roboto-bold" id="menu-1"><a id="link-1" class="active" href="index.html">Boka färdtjänst</a></li>
+                        <li class="roboto-bold" id="menu-2"><a id="link-2" href="travels.html">Mina bokade resor (1)</a>
+                        </li>
+                        <li class="roboto-bold" id="menu-3"><a id="link-3" href="information.html">Viktig
+                                information</a></li>
+                        <li class="roboto-bold" id="menu-4"><a id="link-4" href="contact.html">Kontakt</a></li>
+                    </ul>
+                    <img id="transfer-image" src="Busstransfer.webp" alt="Din färds egen transferbuss">
+                </div>
+            </section>
+            <section id="second-booking">
+                <form action="index.html" method="get" id="form-back">
+                    <ul>
+                    <li id="back-li">
+                        <input type="submit" id="back" value="Gå tillbaka i bokning">
+                    </li>
+                    </ul>
+                </form>
+                <h3 class="roboto-bold" id="booking2-head">Boka färdtjänst (sida 2)</h3>
+                <form id="form-last">
+                    <ul id="secondForm">
+                        <li id="helptools-li">
+                            <fieldset id="helptools-field">
+                                <legend class="roboto-bold" id="help-tools">Medföljande hjälpmedel</legend>
+                                <input type="checkbox" id="help1" name="help" value="Rullstol">
+                                <label class="roboto-bold" id="help1-label" for="help1"> Rullstol</label><br>
+                                <input type="checkbox" id="help2" name="help" value="Elektrisk rullstol">
+                                <label class="roboto-bold" id="help2-label" for="help2"> Elektrisk rullstol</label><br>
+                                <input type="checkbox" id="help3" name="help" value="Rullator">
+                                <label class="roboto-bold" id="help3-label" for="help3"> Rullator</label><br>
+                                <input type="checkbox" id="help4" name="help" value="Ledarhund">
+                                <label class="roboto-bold" id="help4-label" for="help4"> Ledarhund</label><br>
+                                <input type="checkbox" id="help5" name="help" value="Ledsagare/medresenär">
+                                <label class="roboto-bold" id="help5-label" for="help5"> Ledsagare/medresenär</label>
+                            </fieldset>
+                        </li>
+                        <li id="middlestop-li">
+                            <label class="roboto-bold" id="middlestop-label" for="middlestop">Via-resa:</label>
+                            <input type="text" id="middlestop" placeholder="Önskat stopp längst vägen"
+                                name="form-middlestop">
+                        </li>
+                        <li id="repeat-li">
+                            <fieldset id="repeat-field">
+                                <legend class="roboto-bold" id="repeat-head">Gör denna resa återkommande</legend>
+                                <input type="checkbox" id="repeat1" name="repeat" value="OnceWeek">
+                                <label class="roboto-bold" id="repeat1-label" for="repeat1"> En gång i
+                                    veckan</label><br>
+                                <input type="checkbox" id="repeat2" name="repeat" value="OnceMonth">
+                                <label class="roboto-bold" id="repeat2-label" for="repeat2"> En gång i
+                                    månaden</label><br>
+                                <input type="checkbox" id="repeat3" name="repeat" value="EveryWeekday">
+                                <label class="roboto-bold" id="repeat3-label" for="repeat3"> Varje vardag</label><br>
+                            </fieldset>
+                        </li>
+                        <li id="information-li">
+                            <label class="roboto-bold" id="information-label" for="information">Övrig
+                                information:</label>
+                            <textarea class="roboto" name="form-information" id="information"
+                                placeholder="Övrig information till chauffören" rows="6" cols="50"></textarea>
+                        </li>
+                        <li id="send-li">
+                            <input type="button" class="roboto" id="send" name="form-send" value="Boka färdtjänstresa">
+                        </li>
+                    </ul>
+                </form>
+            </section>
+            <div id="confirmation-section">
+                <article id="confirmation" class="hidden">
+                    <h3 class="roboto-bold" id="confirm-head">Tack för din bokning!</h3>
+                    <p class="roboto" id="booking-text1">Du har nu bokat din färdtjänstresa med oss på Färdtjänst, Din
+                        färd.
+                        Inom kort får du en bekräftelse på din bokning skickad till din e-post.
+                        Du hittar även din bokning under fliken "Mina bokade sidor".
+                    </p>
+                    <p class="roboto" id="booking-text2">Vid frågor om din bokning är du välkommen att
+                        kontakta vår kundtjänst.
+                    </p>
+                    <input type="button" id="close" value="Ta mig till startsidan">
+                </article>
+            </div>
+        </main>
+         <footer>
+            <div id="footer-start">
+            <p class="roboto" id="footertext1">© Din Färd AB.</p>
+            <p class="roboto" id="footertext2">Färdtjänst för dina behov</p>
+            </div>
+            <section id="footer-section">
+                <h4 class="roboto-bold"><a id="fotlink1" href="information.html">Om oss</a></h4>
+                <h4 class="roboto-bold"><a id="fotlink2" href="contact.html">Kontakt</a></h4>
+                <h4 class="roboto-bold"><a id="fotlink3" href="find.html">Hitta hit</a></h4>
+            </section>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transfer services">
+    <title>Din färd</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <a href="index.html"><img id="logo" src="fardlogo.svg" alt="Logotyp för webbplatsen"></a>
+            <img id="search" src="sok.svg" alt="Sök på webbplatsen">
+            <p class="roboto-bold" id="login"><a id="login-link" href="mypages.html">Mina sidor</a></p>
+        </header>
+        <main>
+            <img id="hero" src="fardHero.webp" alt="vackert landskap med bilväg, grön natur och rött hus">
+            <article id="herotext">
+                <h1 class="roboto-bold" id="hero-head">Din Färd</h1>
+                <p class="roboto" id="hero-subhead">Färdtjänst för dina behov</p>
+            </article>
+            <section id="menu-section">
+                <h2 id="menu" class="roboto-bold">Meny</h2>
+                <div id="menu-div">
+                    <ul id="menu-list">
+                        <li class="roboto-bold" id="menu-1"><a id="link-1" class="active" href="index.html">Boka färdtjänst</a></li>
+                        <li class="roboto-bold" id="menu-2"><a id="link-2" href="travels.html">Mina bokade resor (1)</a>
+                        </li>
+                        <li class="roboto-bold" id="menu-3"><a id="link-3" href="information.html">Viktig
+                                information</a></li>
+                        <li class="roboto-bold" id="menu-4"><a id="link-4" href="contact.html">Kontakt</a></li>
+                    </ul>
+                    <img id="transfer-image" src="Busstransfer.webp" alt="Din färds egen transferbuss">
+                </div>
+            </section>
+            <article id="contact-section">
+                <h3 class="roboto">&#9743; <strong>Boka via telefon:</strong> 08 - 034 34 44</h3>
+                <h3 class="roboto">&#9993; <strong>Boka via mail:</strong> info@dinfard.com</h3>
+            </article>
+            <section id="booking-section">
+                <h3 class="roboto-bold" id="booking-head">Boka färdtjänst</h3>
+                <form>
+                    <ul id="form-list">
+                        <li id="travel-li">
+                            <input type="radio" id="enkelresa" name="radio" value="Enkelresa">
+                            <label  id="lab1" class="roboto-bold" for="enkelresa">Enkelresa</label>
+                            <input type="radio" id="returresa" name="radio" value="Returresa">
+                            <label id="lab2" class="roboto-bold" for="returresa">Tur- och returresa</label>
+                        </li>
+                        <li id="date-li">
+                            <label class="roboto-bold" id="date-label" for="date">*Datum</label>
+                            <input type="text" id="date" placeholder="ÅÅÅÅ-MM-DD" name="form-date">
+                        </li>
+                        <li id="gotime-li">
+                            <label class="roboto-bold" id="gotime-label" for="gotime">*Tid för avresa</label>
+                            <input type="text" id="gotime" placeholder="TT:MM" name="form-gotime">
+                        </li>
+                        <li id="hometime-li" class="grid hidden">
+                            <label class="roboto-bold" id="hometime-label" for="hometime">*Tid för returresa</label>
+                            <input type="text" id="hometime" placeholder="TT:MM" name="form-hometime">
+                        </li>
+                        <li id="picup-li">
+                            <label class="roboto-bold" id="picup-label" for="picup">*Adress avresa</label>
+                            <input type="text" id="picup" placeholder="Ex. Södervägen 38, 19237 Knivsta"
+                                name="form-picup">
+                        </li>
+                        <li id="destination-li">
+                            <label class="roboto-bold" id="destination-label" for="destination">*Adress
+                                destination</label>
+                            <input type="text" id="destination" placeholder="Ex. Södervägen 38, 19237 Knivsta"
+                                name="form-destination">
+                        </li>
+                    </ul>
+                </form>
+                <p id="return-info" class="roboto"></p>
+                <form action="booking.html" method="get" id="form-forvard">
+                    <ul>
+                    <li id="forvard-li">
+                        <input type="submit" id="forvard" value="Gå vidare med bokning">
+                    </li>
+                    </ul>
+                </form>
+            </section>
+        </main>
+         <footer>
+            <div id="footer-start">
+            <p class="roboto" id="footertext1">© Din Färd AB.</p>
+            <p class="roboto" id="footertext2">Färdtjänst för dina behov</p>
+            </div>
+            <section id="footer-section">
+                <h4 class="roboto-bold"><a id="fotlink1" href="information.html">Om oss</a></h4>
+                <h4 class="roboto-bold"><a id="fotlink2" href="contact.html">Kontakt</a></h4>
+                <h4 class="roboto-bold"><a id="fotlink3" href="find.html">Hitta hit</a></h4>
+            </section>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
