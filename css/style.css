@@ -1584,7 +1584,9 @@ footer {
     }
 
     #info-list1,
-    #info-list2 {
+    #info-list2,
+    #info-list3,
+    #info-list4 {
         font-size: 90%;
         width: 70%;
     }
