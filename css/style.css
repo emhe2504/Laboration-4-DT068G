@@ -1585,6 +1585,6 @@ footer {
 
     #info-list1,
     #info-list2 {
-        padding-left: 0;
+        justify-self: left;
     }
 }
