@@ -1582,4 +1582,9 @@ footer {
     #info9-text3 {
         width: 85%;
     }
+
+    #info-list1,
+    #info-list2 {
+        padding-left: 0;
+    }
 }
