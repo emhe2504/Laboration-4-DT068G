@@ -1589,7 +1589,12 @@ footer {
         width: 75%;
     }
 
-    #information4-head {
+    #information1-head,
+    #information2-head,
+    #information3-head,
+    #information4-head,
+    #information5-head,
+    #information6-head {
         font-size: 110%;
     }
 }
