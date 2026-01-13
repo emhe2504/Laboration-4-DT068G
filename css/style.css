@@ -684,6 +684,7 @@ input[type="checkbox"] {
     color: white;
     font-size: 140%;
     letter-spacing: 1.5px;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5)
 }
 
 #phone-head,
