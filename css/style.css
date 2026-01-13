@@ -210,7 +210,7 @@ header {
 }
 
 ::placeholder {
-    color: white;
+    color: black;
 }
 
 #form-list,
@@ -331,11 +331,11 @@ input[type="radio"] {
 #destination,
 #middlestop {
     justify-self: center;
-    background-color: #284575;
-    border: none;
+    background-color: rgb(213, 224, 253);
+    border: 1px solid black;
     height: 50px;
     width: 35%;
-    color: white;
+    color: black;
     font-size: 120%;
     padding-left: 1%;
 }
@@ -493,7 +493,7 @@ input[type="checkbox"] {
 
 #information {
     justify-self: center;
-    background-color: #284575;
+    background-color: rgb(213, 224, 253);
     border: none;
     width: 35%;
     color: white;
@@ -532,6 +532,7 @@ input[type="checkbox"] {
     transform: translate(-50%, -50%);
     z-index: 10;
     background: rgb(222, 227, 247);
+    border: 2px solid black;
     padding-top: 8%;
     padding-bottom: 10%;
     padding-left: 4%;
@@ -579,7 +580,7 @@ input[type="checkbox"] {
     display: grid;
     justify-self: center;
     background-color: #1B3C53;
-    border: 2px solid white;
+    border: 2px solid black;
     height: 45px;
     width: 35%;
     color: white;
@@ -619,7 +620,17 @@ input[type="checkbox"] {
     margin-bottom: 5%;
 }
 
-#travel1-article,
+#travel1-article {
+    display: grid;
+    justify-self: center;
+    background-color: #456882;
+    width: 60%;
+    line-height: 1em;
+    padding-bottom: 5%;
+    box-shadow: 5px 5px 5px rgba(50, 50, 50, 5)
+}
+
+
 #contact-article,
 #find-article,
 #login-article {
@@ -646,7 +657,7 @@ input[type="checkbox"] {
 #login2 {
     display: grid;
     justify-self: left;
-    background-color: #284575;
+    background-color: rgb(213, 224, 253);
     border: none;
     height: 50px;
     width: 35%;
