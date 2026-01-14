@@ -1,6 +1,6 @@
 #container {
     width: 100%;
-    height: 100%;
+    min-height: 100%;
 }
 
 body {
@@ -26,7 +26,7 @@ main {
 #regular-header {
     display: grid;
     width: 100%;
-    grid-template-columns: 80% 1fr 1fr;
+    grid-template-columns: 7fr 1fr 1fr;
 }
 
 #easy-header {
@@ -105,8 +105,8 @@ main {
 
 #menu-easy {
     display: grid;
-    width: 98%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
     list-style: none;
     justify-self: center;
     border-top: 3px solid #456882;
@@ -407,7 +407,7 @@ input[type="radio"] {
 }
 
 
-#button-list{
+#button-list {
     padding-left: 1%;
     margin-top: 4%;
     margin-bottom: 3%;
@@ -650,7 +650,7 @@ input[type="checkbox"] {
     justify-self: center;
 }
 
-#travels-head{
+#travels-head {
     display: grid;
     justify-self: center;
     font-size: 200%;
@@ -693,10 +693,10 @@ input[type="checkbox"] {
     display: grid;
     justify-self: center;
     background-color: #456882;
-    width: 60%;
+    width: 65%;
     line-height: 1em;
     padding-bottom: 5%;
-    box-shadow: 5px 5px 5px rgba(50, 50, 50, 5)
+    box-shadow: 5px 5px 5px rgba(50, 50, 50, 5);
 }
 
 
@@ -772,8 +772,7 @@ input[type="checkbox"] {
 #trav7-head,
 #trav8-head,
 #trav9-head,
-#trav10-head,
-#trav11-head {
+#trav10-head {
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
     font-size: 145%;
 }
@@ -1047,8 +1046,9 @@ footer {
 
 @media only screen and (max-width: 1400px) {
 
-    header {
-        grid-template-columns: 65% 1fr 1fr;
+    #regular-header,
+    #easy-header {
+        grid-template-columns: 7fr 1.5fr 1.5fr;
     }
 
     #logo {
@@ -1123,10 +1123,26 @@ footer {
     #herotext {
         top: 15%;
     }
+
+    #travel1-article {
+        width: 90%;
+    }
+
+    #find-footer {
+        position: fixed;
+        justify-self: center;
+        bottom: 0;
+        width: 99%;
+    }
 }
 
 
 @media only screen and (max-width: 1050px) {
+
+    #regular-header,
+    #easy-header {
+        grid-template-columns: 7fr 2fr 2fr;
+    }
 
     #hero-head {
         font-size: 300%;
@@ -1149,6 +1165,10 @@ footer {
 
     #menu-div {
         grid-template-columns: 1fr;
+    }
+
+    #menu-easy {
+        font-size: 85%;
     }
 
     #transfer-image {
@@ -1185,10 +1205,6 @@ footer {
 
     #travels-head {
         font-size: 180%;
-    }
-
-    #travel1-article {
-        width: 80%;
     }
 
     #change,
@@ -1299,12 +1315,61 @@ footer {
     #login2 {
         font-size: 100%;
     }
+
+    #travels-head {
+        font-size: 180%;
+    }
+
+    #travel1-head {
+        font-size: 170%;
+    }
+
+    #booking-information {
+        grid-template-columns: none;
+    }
+
+    #trav1-text,
+    #trav2-text,
+    #trav3-text,
+    #trav4-text,
+    #trav5-text,
+    #trav6-text,
+    #trav7-text,
+    #trav8-text,
+    #trav9-text,
+    #trav10-text {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    #menu-easy {
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 110%;
+        padding-left: 0;
+    }
+
+    #easy-1,
+    #easy-2 {
+        padding-top: 2%;
+        padding-bottom: 5%;
+        border-bottom: 1px solid #456882;
+    }
+
+    #easy-3,
+    #easy-4 {
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
 }
 
 @media only screen and (max-width: 800px) {
 
-    header {
-        grid-template-columns: 55% 1fr 1fr;
+    #regular-header,
+    #easy-header {
+        grid-template-columns: 6fr 2fr 3fr;
     }
 
     #logo {
@@ -1412,7 +1477,7 @@ footer {
     }
 
     #herotext {
-        top: 10%;
+        top: 12%;
     }
 
     #menu {
@@ -1421,11 +1486,6 @@ footer {
 
     #menu-list {
         width: 65%;
-    }
-
-    .active {
-        border-bottom: 3px solid white;
-        border-left: 3px solid white;
     }
 
     #contact-section {
@@ -1547,9 +1607,18 @@ footer {
         margin-left: 0;
     }
 
+    #footer-section {
+        grid-template-columns: 1.5fr 1fr 1fr;
+    }
+
 }
 
 @media only screen and (max-width: 550px) {
+
+    #regular-header,
+    #easy-header {
+        grid-template-columns: 5fr 3fr 4fr;
+    }
 
     #forvard,
     #report-button,
@@ -1567,12 +1636,9 @@ footer {
         width: 40%;
     }
 
-    #search {
-        margin-right: 4%;
-    }
-
     #login {
-        margin-right: 12%;
+        font-size: 110%;
+        margin-right: 14%;
     }
 
     #login1,
