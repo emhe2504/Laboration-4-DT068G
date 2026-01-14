@@ -13,87 +13,83 @@
 
 <body>
     <div id="container">
-        <header>
+        <header id="easy-header">
             <a href="index.html"><img id="logo" src="fardlogo.svg" alt="Logotyp för webbplatsen"></a>
             <img id="search" src="sok.svg" alt="Sök på webbplatsen">
             <p class="roboto-bold" id="login"><a id="login-link" href="mypages.html">Mina sidor</a></p>
         </header>
         <main>
-            <img id="hero" src="fardHero.webp" alt="vackert landskap med bilväg, grön natur och rött hus">
-            <article id="herotext">
-                <h1 class="roboto-bold" id="hero-head">Din Färd</h1>
-                <p class="roboto" id="hero-subhead">Färdtjänst för dina behov</p>
-            </article>
-            <section id="menu-section">
-                <h2 id="menu" class="roboto-bold">Meny</h2>
-                <div id="menu-div">
-                    <ul id="menu-list">
-                        <li class="roboto-bold" id="menu-1"><a id="link-1" href="index.html">Boka färdtjänst</a></li>
-                        <li class="roboto-bold" id="menu-2"><a id="link-2" class="active" href="travels.html">Mina
-                                bokade resor (1)</a>
+            <section id="navigation-easy">
+                    <ul id="menu-easy">
+                        <li class="roboto-bold" id="easy-1"><a id="link-1" href="index.html">Start / boka färdtjänst &#128664;</a></li>
+                        <li class="roboto-bold" id="easy-2"><a id="link-2" class="active" href="travels.html">Mina bokade resor (1) &#128204;</a>
                         </li>
-                        <li class="roboto-bold" id="menu-3"><a id="link-3" href="information.html">Viktig
-                                information</a></li>
-                        <li class="roboto-bold" id="menu-4"><a id="link-4" href="contact.html">Kontakt</a></li>
+                        <li class="roboto-bold" id="easy-3"><a id="link-3" href="information.html">Viktig
+                                information &#x1F4C3;</a></li>
+                        <li class="roboto-bold" id="easy-4"><a id="link-4" href="contact.html">Kontakt &#128222;</a></li>
                     </ul>
-                    <img id="transfer-image" src="Busstransfer.webp" alt="Din färds egen transferbuss">
+            </section>
                 </div>
             </section>
             <section id="travels-section">
                 <h3 class="roboto-bold" id="travels-head">Mina bokade resor (1)</h3>
                 <article id="travel1-article">
                     <h4 class="roboto-bold" id="travel1-head">Bokning 1</h4>
-                    <ul id="booking-list">
+                    <div id="booking-information">
+                    <ul id="booking-list1">
                         <li id="trav-info1">
-                            <h4 class="roboto-bold">Resande:</h4>
+                            <h4 class="roboto-bold" id="trav1-head">Resande:</h4>
                             <p class="roboto">Ingrid Persson</p>
                         </li>
                         <li id="trav-info2">
-                            <h4 class="roboto-bold">Datum:</h4>
+                            <h4 class="roboto-bold" id="trav2-head">Datum:</h4>
                             <p class="roboto">2025-12-17</p>
                         </li>
                         <li id="trav-info3">
-                            <h4 class="roboto-bold">Tid för avresa:</h4>
+                            <h4 class="roboto-bold" id="trav3-head">Tid för avresa:</h4>
                             <p class="roboto">10.00</p>
                         </li>
                         <li id="trav-info4">
-                            <h4 class="roboto-bold">Tid för returresa:</h4>
+                            <h4 class="roboto-bold" id="trav4-head">Tid för returresa:</h4>
                             <p class="roboto">15.00</p>
                         </li>
                         <li id="trav-info5">
-                            <h4 class="roboto-bold">Adress för upphämtning:</h4>
-                            <p class="roboto">Västralånggatan 34, 12345 Malmö</p>
+                            <h4 class="roboto-bold" id="trav5-head">Adress för upphämtning:</h4>
+                            <p class="roboto">Västralånggatan 34, 12345 Borlänge</p>
                         </li>
+                        </ul>
+                        <ul id="booking-list2" id="trav6-head">
                         <li id="trav-info6">
-                            <h4 class="roboto-bold">Önskad destination:</h4>
-                            <p class="roboto">Köpmannavägen 4, 123 46 Malmö</p>
+                            <h4 class="roboto-bold" id="trav7-head">Önskad destination:</h4>
+                            <p class="roboto">Köpmannavägen 4, 123 46 Borlänge </p>
                         </li>
                         <li id="trav-info7">
-                            <h4 class="roboto-bold">Medföljande hjälpmedel:</h4>
+                            <h4 class="roboto-bold" id="trav8-head">Medföljande hjälpmedel:</h4>
                             <p class="roboto">Rullator</p>
                             <p class="roboto">Ledsagare/medresenär</p>
                         </li>
                         <li id="trav-info8">
-                            <h4 class="roboto-bold">Via-resa:</h4>
+                            <h4 class="roboto-bold" id="trav9-head">Via-resa:</h4>
                             <p class="roboto">-</p>
                         </li>
                          <li id="trav-info9">
-                            <h4 class="roboto-bold">Återkommande:</h4>
+                            <h4 class="roboto-bold" id="trav10-head">Återkommande:</h4>
                             <p class="roboto">-</p>
                         </li>
                         <li id="trav-info10">
-                            <h4 class="roboto-bold">Övrig information:</h4>
+                            <h4 class="roboto-bold" id="trav11-head">Övrig information:</h4>
                             <p class="roboto">Svårt att gå, stå gärna nära porten</p>
                         </li>
                     </ul>
+                    </div>
                     <ul id="button-list">
                         <li id="change-li">
                             <input type="button" class="roboto" id="change" name="booking-change"
-                                value="Ändra färdtjänstresa">
+                                value="Ändra färdtjänstresa &#x270E;">
                         </li>
                         <li id="cancel-li">
                             <input type="button" class="roboto" id="cancel" name="booking-cancel"
-                                value="Avboka färdtjänstresa">
+                                value="Avboka färdtjänstresa &#x2715;">
                         </li>
                     </ul>
                     <br><br>

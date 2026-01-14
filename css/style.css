@@ -23,7 +23,13 @@ main {
     font-style: normal;
 }
 
-header {
+#regular-header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 80% 1fr 1fr;
+}
+
+#easy-header {
     display: grid;
     width: 100%;
     grid-template-columns: 80% 1fr 1fr;
@@ -38,7 +44,7 @@ header {
 #search {
     justify-self: right;
     align-self: center;
-    width: 25%;
+    width: 30%;
 }
 
 #login {
@@ -46,7 +52,7 @@ header {
     align-self: center;
     margin-right: 25%;
     color: white;
-    font-size: large;
+    font-size: 125%;
 }
 
 #login-link {
@@ -95,6 +101,31 @@ header {
     background-color: #456882;
     width: 90%;
     margin-top: 5%;
+}
+
+#menu-easy {
+    display: grid;
+    width: 98%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    justify-self: center;
+    border-top: 3px solid #456882;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0;
+}
+
+#easy-1,
+#easy-2,
+#easy-3 {
+    text-align: center;
+    width: 100%;
+    border-right: 3px solid #456882;
+}
+
+#easy-4 {
+    text-align: center;
+    width: 100%;
 }
 
 #menu {
@@ -146,13 +177,13 @@ header {
     color: white;
     letter-spacing: 0.8px;
     font-size: 130%;
+    padding-bottom: 1%;
 }
 
 .active {
-    border-bottom: 5px solid white;
-    border-left: 5px solid white;
-    padding-bottom: 1%;
-    padding-left: 3%;
+    border-bottom: 3px solid white;
+    padding-bottom: 2%;
+    padding-left: 4%;
 }
 
 #transfer-image {
@@ -360,8 +391,28 @@ input[type="radio"] {
     font-size: 120%;
 }
 
-#booking-list,
-#button-list,
+#booking-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    width: 90%;
+}
+
+#booking-list1,
+#booking-list2 {
+    display: grid;
+    justify-self: left;
+    padding-left: 5%;
+    list-style: none;
+}
+
+
+#button-list{
+    padding-left: 1%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
 #report-list {
     padding-left: 1%;
 }
@@ -439,18 +490,19 @@ input[type="radio"] {
     height: 55px;
     width: 75%;
     color: white;
-    font-size: 120%;
-    background-color: #284575;
+    font-size: 135%;
+    background-color: #456882;
     margin-bottom: 2%;
 }
 
 #helptools-field,
 #repeat-field {
     justify-self: center;
-    border: none;
-    background-color: rgb(204, 214, 248);
+    border: 2px solid #1B3C53;
+    background-color: #456882;
     line-height: 2em;
     width: 35%;
+    padding-left: 2%;
 }
 
 #help1-label,
@@ -461,7 +513,7 @@ input[type="radio"] {
 #repeat1-label,
 #repeat2-label,
 #repeat3-label {
-    color: #1B3C53;
+    color: white;
     letter-spacing: 1px;
     padding-left: 2%;
     font-size: 120%;
@@ -519,8 +571,8 @@ input[type="checkbox"] {
     height: 55px;
     width: 75%;
     color: white;
-    font-size: 120%;
-    background-color: #284575;
+    font-size: 135%;
+    background-color: #456882;
     margin-bottom: 2%;
 }
 
@@ -598,7 +650,15 @@ input[type="checkbox"] {
     justify-self: center;
 }
 
-#travels-head,
+#travels-head{
+    display: grid;
+    justify-self: center;
+    font-size: 200%;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 #contact-head,
 #find-head,
 #login-head {
@@ -609,7 +669,16 @@ input[type="checkbox"] {
     margin-top: 5%;
 }
 
-#travel1-head,
+#travel1-head {
+    font-size: 190%;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+
 #contact1-head,
 #find1-head,
 #login1-head {
@@ -677,14 +746,36 @@ input[type="checkbox"] {
 #trav-info7,
 #trav-info8,
 #trav-info9,
-#trav-info10,
+#trav-info10 {
+    color: white;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+    border-bottom: 1px solid #1B3C53;
+}
+
+
 #adress1,
 #adress2 {
-    margin-left: 10%;
     color: white;
     font-size: 140%;
     letter-spacing: 1.5px;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5)
+    line-height: 1.5em;
+    margin-left: 5%;
+}
+
+#trav1-head,
+#trav2-head,
+#trav3-head,
+#trav4-head,
+#trav5-head,
+#trav6-head,
+#trav7-head,
+#trav8-head,
+#trav9-head,
+#trav10-head,
+#trav11-head {
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    font-size: 145%;
 }
 
 #phone-head,
