@@ -858,7 +858,7 @@ input[type="checkbox"] {
 
 #report-name,
 #report-mail {
-    background-color: #284575;
+    background-color: rgb(213, 224, 253);
     border: none;
     height: 40px;
     width: 50%;
@@ -869,7 +869,7 @@ input[type="checkbox"] {
 }
 
 #report-text {
-    background-color: #284575;
+    background-color: rgb(213, 224, 253);
     border: none;
     height: 80px;
     width: 50%;
