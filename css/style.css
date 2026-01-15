@@ -1763,11 +1763,15 @@ footer {
     }
 
     #easy-header {
-        grid-template-columns: 2.2fr 2.8fr 2fr 3fr;
+        grid-template-columns: 2.2fr 2.8fr 1.5fr 3.5fr;
     }
 
     #regular-search {
         width: 35%;
+    }
+
+    #search {
+        width: 50%;
     }
 
     #startsida,
