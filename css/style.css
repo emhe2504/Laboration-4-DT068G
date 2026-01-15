@@ -1766,12 +1766,16 @@ footer {
         grid-template-columns: 2.2fr 2.8fr 1.5fr 3.5fr;
     }
 
+    #login {
+        margin-right: 20%;
+    }
+
     #regular-search {
         width: 35%;
     }
 
     #search {
-        width: 50%;
+        width: 55%;
     }
 
     #startsida,
@@ -1835,8 +1839,8 @@ footer {
 
     #easy-button {
         margin-top: 4%;
-        padding-left: 3%;
-        padding-right: 3%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
 
     #close-easy {
