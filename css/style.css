@@ -1759,7 +1759,7 @@ footer {
     }
 
     #hero-subhead {
-        font-size: 100%;
+        display: none;
     }
 
     #herotext {
