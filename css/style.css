@@ -1816,7 +1816,7 @@ footer {
     }
 
     #menu-easy {
-        width: 60%;
+        width: 80%;
     }
 
     #easy-1,
@@ -1827,6 +1827,23 @@ footer {
     #easy-3,
     #easy-4 {
         padding-top: 6%;
+    }
+
+    #easy-button {
+        margin-top: 4%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #close-easy {
+        margin-top: 6%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: 95%;
     }
 
     #middlestop-li,
