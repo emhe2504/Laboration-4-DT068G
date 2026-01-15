@@ -1767,7 +1767,8 @@ footer {
     }
 
     #login {
-        margin-right: 20%;
+        margin-right: 5%;
+        font-size: 100%;
     }
 
     #regular-search {
@@ -1779,7 +1780,6 @@ footer {
     }
 
     #startsida,
-    #login,
     #regular-login {
         font-size: 100%;
     }
