@@ -1755,7 +1755,8 @@ footer {
     }
 
     #hero-head {
-        font-size: 130%;
+        font-size: 135%;
+        padding-top: 2%;
     }
 
     #hero-subhead {
@@ -1763,7 +1764,7 @@ footer {
     }
 
     #herotext {
-        top: 12%;
+        top: 15%;
     }
 
     #menu {
