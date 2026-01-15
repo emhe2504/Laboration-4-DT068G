@@ -2,7 +2,28 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
+    initPage();
+});
+
+
+function initPage() {
+    useSubmitbutton();
+    useClosebutton();
+    useCancelbutton();
+    useReportbutton();
+    simpleOrReturn();
+    useLoginbutton();
+    awayMenu();
+    clickMenu();
+    clickAwayMenu();
+
+    window.addEventListener("resize", awayMenu);
+}
+
+function useSubmitbutton() {
+
     const submitButton = document.getElementById("send");
+
     if (submitButton) {
         submitButton.addEventListener("click", () => {
 
@@ -10,9 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
             confirmation.classList.remove("hidden");
         });
     }
+};
 
+function useClosebutton() {
 
     const closeButton = document.getElementById("close");
+
     if (closeButton) {
         closeButton.addEventListener("click", () => {
 
@@ -20,7 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+};
+
+function useCancelbutton() {
+
     const cancelButton = document.getElementById("cancel");
+
     if (cancelButton) {
         cancelButton.addEventListener("click", () => {
 
@@ -29,7 +58,12 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+};
+
+function useReportbutton() {
+
     const reportButton = document.getElementById("report-button");
+
     if (reportButton) {
         reportButton.addEventListener("click", () => {
 
@@ -37,6 +71,10 @@ document.addEventListener("DOMContentLoaded", () => {
             reportConfirmation.classList.remove("hidden");
         });
     }
+
+};
+
+function simpleOrReturn() {
 
     const simpleTravel = document.getElementById("enkelresa");
     const returnTravel = document.getElementById("returresa");
@@ -65,6 +103,10 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     };
 
+};
+
+function useLoginbutton() {
+
     const loginButton = document.getElementById("login-button");
 
     if (loginButton) {
@@ -73,6 +115,56 @@ document.addEventListener("DOMContentLoaded", () => {
             const loginConfirmation = document.getElementById("login-confirmation");
             loginConfirmation.innerHTML = "Du loggas nu in. Var god vänta. (Detta händer ej då det är en prototyp)"
         });
+
     }
 
-});
+};
+
+
+function awayMenu() {
+
+    const menu = document.getElementById("menu-easy");
+    const menuButton = document.getElementById("easy-button");
+
+    if (window.innerWidth <= 950) {
+        menu.classList.add("hidden");
+        menuButton.classList.remove("hidden");
+
+    } else {
+        menu.classList.remove("hidden");
+        menuButton.classList.add("hidden");
+    }
+
+};
+
+function clickMenu() {
+
+    const menu = document.getElementById("menu-easy");
+    const menuButton = document.getElementById("easy-button");
+    const closeMenu = document.getElementById("close-easy");
+
+    menuButton.addEventListener("click", () => {
+
+        if (menuButton.classList.contains("hidden") === false) {
+            menu.classList.remove("hidden");
+            closeMenu.classList.remove("hidden");
+
+        }
+    });
+
+};
+
+function clickAwayMenu() {
+
+    const menu = document.getElementById("menu-easy");
+    const closeMenu = document.getElementById("close-easy");
+
+    closeMenu.addEventListener("click", () => {
+
+        if (menu.classList.contains("hidden") === false) {
+            menu.classList.add("hidden");
+            closeMenu.classList.add("hidden");
+
+        }
+    });
+};
