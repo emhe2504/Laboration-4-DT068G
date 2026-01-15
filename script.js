@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (closeButton) {
         closeButton.addEventListener("click", () => {
 
-            window.location.href = "travels.html";
+            window.location.href = "index.html";
         });
     }
 
