@@ -1723,6 +1723,10 @@ footer {
         grid-template-columns: 2.2fr 2.8fr 2fr 3fr;
     }
 
+    #regular-search {
+        width: 35%;
+    }
+
     #startsida,
     #login {
         font-size: 100%;
@@ -1751,7 +1755,7 @@ footer {
     }
 
     #hero-head {
-        font-size: 145%;
+        font-size: 130%;
     }
 
     #hero-subhead {
@@ -1759,7 +1763,7 @@ footer {
     }
 
     #herotext {
-        top: 11.5%;
+        top: 12%;
     }
 
     #menu {
