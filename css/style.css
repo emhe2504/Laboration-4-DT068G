@@ -195,6 +195,7 @@ main {
 #close-easy {
     display: grid;
     justify-self: center;
+    text-align: center;
     margin-top: 4%;
     margin-bottom: 2%;
     margin-right: 5%;
