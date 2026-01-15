@@ -1708,7 +1708,7 @@ footer {
     }
 
     #footer-section {
-        grid-template-columns: 1.1fr 1fr 1fr;
+        grid-template-columns: 1.3fr 1fr 1fr;
     }
 
 }
