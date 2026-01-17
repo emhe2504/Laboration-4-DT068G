@@ -676,11 +676,42 @@ input[type="checkbox"] {
     border-radius: 8px;
 }
 
+#sure-cancellation {
+    display: grid;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background: rgb(222, 227, 247);
+    border: 2px solid black;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 8px;
+}
+
 #confirm-head,
-#cancel-head {
+#cancel-head,
+#sure-head {
     font-size: 200%;
     color: #1B3C53;
     text-align: center;
+}
+
+#sure-ja,
+#sure-nej {
+    display: grid;
+    justify-self: center;
+    width: 40%;
+    font-size: 110%;
+    margin-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #1B3C53;
+    border: 2px solid white;
+    color: white;
 }
 
 #booking-text1,
@@ -1233,6 +1264,15 @@ footer {
         width: 90%;
     }
 
+    #sure-cancellation {
+        width: 55%;
+    }
+
+    #sure-ja,
+    #sure-nej {
+        width: 30%;
+    }
+
     #find-footer {
         position: fixed;
         justify-self: center;
@@ -1370,6 +1410,10 @@ footer {
     #cancel-head,
     #find-head {
         font-size: 180%;
+    }
+
+    #sure-head {
+        font-size: 140%;
     }
 
     #close,
@@ -1664,6 +1708,14 @@ footer {
     #send {
         font-size: 90%;
         width: 65%;
+    }
+
+    #sure-cancellation {
+        width: 75%;
+    }
+
+    #sure-head {
+        font-size: 125%;
     }
 
     #booking-list {

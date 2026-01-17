@@ -53,11 +53,31 @@ function useCancelbutton() {
     if (cancelButton) {
         cancelButton.addEventListener("click", () => {
 
-            const cancellation = document.getElementById("cancellation");
-            cancellation.classList.remove("hidden");
+            const youSure = document.getElementById("sure-cancellation");
+            youSure.classList.remove("hidden");
         });
     }
+    
+    const sureYes = document.getElementById("sure-ja");
+    const sureNo = document.getElementById("sure-nej");
+    const youSure = document.getElementById("sure-cancellation");
 
+    if (youSure) {
+
+        sureYes.addEventListener("click", () => {
+
+            const cancellation = document.getElementById("cancellation");
+            youSure.classList.add("hidden");
+            cancellation.classList.remove("hidden");
+        });
+
+        sureNo.addEventListener("click", () => {
+
+            const youSure = document.getElementById("sure-cancellation");
+            youSure.classList.add("hidden");
+            window.location.href = "travels.html#trav8-text";
+        });
+    }
 };
 
 function useReportbutton() {
