@@ -20,7 +20,7 @@
             </nav>
             <img id="search" src="sok.svg" alt="Sök på webbplatsen">
             <nav aria-label="Inloggningssida" id="login">
-            <a id="login-link" class="roboto-bold" href="mypages.html">Mina sidor</a>
+                <a id="login-link" class="roboto-bold" href="mypages.html">Mina sidor</a>
             </nav>
         </header>
         <main>
@@ -35,7 +35,8 @@
                     <li class="roboto-bold" id="easy-3"><a id="link-3" href="information.html">Viktig
                             information &#x1F4C3;</a></li>
                     <li class="roboto-bold" id="easy-4"><a id="link-4" href="contact.html">Kontakt &#128222;</a></li>
-                    <li id="easy-5"><input type="button" id="close-easy" value="Stäng meny" class="roboto-bold hidden"></li>
+                    <li id="easy-5"><input type="button" id="close-easy" value="Stäng meny" class="roboto-bold hidden">
+                    </li>
                 </ul>
             </div>
             <section id="booking-section">
@@ -43,10 +44,12 @@
                 <form>
                     <ul id="form-list">
                         <li id="travel-li">
-                            <input type="radio" id="enkelresa" name="radio" value="Enkelresa">
-                            <label id="lab1" class="roboto-bold" for="enkelresa">Enkelresa</label>
-                            <input type="radio" id="returresa" name="radio" value="Returresa">
-                            <label id="lab2" class="roboto-bold" for="returresa">Tur- och returresa</label>
+                            <fieldset>
+                                <input type="radio" id="enkelresa" name="radio" value="Enkelresa">
+                                <label id="lab1" class="roboto-bold" for="enkelresa">Enkelresa</label>
+                                <input type="radio" id="returresa" name="radio" value="Returresa">
+                                <label id="lab2" class="roboto-bold" for="returresa">Tur- och returresa</label>
+                            </fieldset>
                         </li>
                         <li id="date-li">
                             <label class="roboto-bold" id="date-label" for="date">*Datum</label>
