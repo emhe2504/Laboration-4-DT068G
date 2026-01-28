@@ -337,6 +337,15 @@ main {
     margin-left: 3%;
 }
 
+#traveltype {
+    border: none;
+}
+
+#traveltype-head {
+    margin-bottom: 1.5%;
+    font-size: 110%;
+}
+
 #travel-li {
     text-align: center;
     color: white;
@@ -1941,7 +1950,6 @@ footer {
         font-size: 80%;
     }
 
-
     #date-label,
     #gotime-label,
     #hometime-label,
@@ -1954,6 +1962,20 @@ footer {
     #information-label,
     #information {
         font-size: 100%;
+    }
+
+    #traveltype-head {
+    font-size: 90%;
+}
+
+    #enkelresa,
+    #returresa {
+        font: 80%;
+    }
+
+    input[type="radio"] {
+        width: 2.5%;
+        margin-right: 2%;
     }
 
     #travel1-article {
