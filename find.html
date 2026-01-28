@@ -15,9 +15,13 @@
     <div id="container">
         <header id="easy-header">
             <a href="index.html"><img id="logo" src="fardlogo.svg" alt="Logotyp för webbplatsen"></a>
-            <p class="roboto-bold" id="startsida"><a id="startsida-link" href="index.html">Startsida</a></p>
+            <nav aria-label="Förstasidan" id="startsida">
+                <a id="startsida-link" class="roboto-bold" href="index.html">Startsida</a>
+            </nav>
             <img id="search" src="sok.svg" alt="Sök på webbplatsen">
-            <p class="roboto-bold" id="login"><a id="login-link" href="mypages.html">Mina sidor</a></p>
+            <nav aria-label="Inloggningssida" id="login">
+                <a id="login-link" class="roboto-bold" href="mypages.html">Mina sidor</a>
+            </nav>
         </header>
         <main>
             <div id="navigation-easy">
@@ -35,11 +39,11 @@
                 </ul>
             </div>
             <section id="find-section">
-                <h3 class="roboto-bold" id="find-head">Hitta hit</h3>
+                <h1 class="roboto-bold" id="find-head">Hitta hit</h1>
                 <article id="find-article">
-                    <h4 class="roboto-bold" id="find1-head">Nedan finner du adressen till Färdtjänst, Din färd:</h4>
+                    <h2 class="roboto-bold" id="find1-head">Nedan finner du adressen till Färdtjänst, Din färd:</h2>
                     <div id="location">
-                        <p class="roboto" id="adress1"><strong>Färdtjänst, Din Färd</strong></p>
+                        <h3 class="roboto-bold" id="adress1">Färdtjänst, Din Färd</h3>
                         <p class="roboto" id="adress2">Brusgatan 16, 784 62 Borlänge</p>
                     </div>
                 </article>
@@ -47,8 +51,8 @@
         </main>
         <footer id="find-footer">
             <div id="footer-start">
-                <p class="roboto" id="footertext1">© Din Färd AB.</p>
-                <p class="roboto" id="footertext2">Färdtjänst för dina behov</p>
+                <h3 class="roboto" id="footertext1">© Din Färd AB.</h3>
+                <h3 class="roboto" id="footertext2">Färdtjänst för dina behov</h3>
             </div>
             <section id="footer-section">
                 <h4 class="roboto-bold"><a id="fotlink1" href="contact.html">Kontakt</a></h4>
