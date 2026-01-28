@@ -15,9 +15,13 @@
     <div id="container">
         <header id="easy-header">
             <a href="index.html"><img id="logo" src="fardlogo.svg" alt="Logotyp för webbplatsen"></a>
-            <p class="roboto-bold" id="startsida"><a id="startsida-link" href="index.html">Startsida</a></p>
+            <nav aria-label="Förstasidan" id="startsida">
+                <a id="startsida-link" class="roboto-bold" href="index.html">Startsida</a>
+            </nav>
             <img id="search" src="sok.svg" alt="Sök på webbplatsen">
-            <p class="roboto-bold" id="login"><a id="login-link" href="mypages.html">Mina sidor</a></p>
+            <nav aria-label="Inloggningssida" id="login">
+                <a id="login-link" class="roboto-bold" href="mypages.html">Mina sidor</a>
+            </nav>
         </header>
         <main>
             <div id="navigation-easy">
@@ -36,52 +40,52 @@
                 </ul>
             </div>
             <section id="travels-section">
-                <h3 class="roboto-bold" id="travels-head">Mina bokade resor (1)</h3>
+                <h1 class="roboto-bold" id="travels-head">Mina bokade resor (1)</h1>
                 <article id="travel1-article">
-                    <h4 class="roboto-bold" id="travel1-head">Bokning 1</h4>
+                    <h2 class="roboto-bold" id="travel1-head">Bokning 1</h2>
                     <div id="booking-information">
                         <ul id="booking-list1">
                             <li id="trav-info1">
-                                <h4 class="roboto-bold" id="trav1-head">Resande:</h4>
+                                <h3 class="roboto-bold" id="trav1-head">Resande:</h3>
                                 <p class="roboto" id="trav1-text">Ingrid Persson</p>
                             </li>
                             <li id="trav-info2">
-                                <h4 class="roboto-bold" id="trav2-head">Datum:</h4>
+                                <h3 class="roboto-bold" id="trav2-head">Datum:</h3>
                                 <p class="roboto" id="trav2-text">2025-12-17</p>
                             </li>
                             <li id="trav-info3">
-                                <h4 class="roboto-bold" id="trav3-head">Tid för avresa:</h4>
+                                <h3 class="roboto-bold" id="trav3-head">Tid för avresa:</h3>
                                 <p class="roboto" id="trav3-text">10.00</p>
                             </li>
                             <li id="trav-info4">
-                                <h4 class="roboto-bold" id="trav4-head">Tid för returresa:</h4>
+                                <h3 class="roboto-bold" id="trav4-head">Tid för returresa:</h3>
                                 <p class="roboto" id="trav4-text">15.00</p>
                             </li>
                             <li id="trav-info5">
-                                <h4 class="roboto-bold" id="trav5-head">Adress för upphämtning:</h4>
+                                <h3 class="roboto-bold" id="trav5-head">Adress för upphämtning:</h3>
                                 <p class="roboto" id="trav5-text">Västralånggatan 34, 12345 Borlänge</p>
                             </li>
                         </ul>
                         <ul id="booking-list2">
                             <li id="trav-info6">
-                                <h4 class="roboto-bold" id="trav6-head">Önskad destination:</h4>
+                                <h3 class="roboto-bold" id="trav6-head">Önskad destination:</h3>
                                 <p class="roboto" id="trav6-text">Köpmannavägen 4, 123 46 Borlänge </p>
                             </li>
                             <li id="trav-info7">
-                                <h4 class="roboto-bold" id="trav7-head">Medföljande hjälpmedel:</h4>
+                                <h3 class="roboto-bold" id="trav7-head">Medföljande hjälpmedel:</h3>
                                 <p class="roboto" id="trav7-text1">Rullator</p>
                                 <p class="roboto" id="trav7-text2">Ledsagare/medresenär</p>
                             </li>
                             <li id="trav-info8">
-                                <h4 class="roboto-bold" id="trav8-head">Via-resa:</h4>
+                                <h3 class="roboto-bold" id="trav8-head">Via-resa:</h3>
                                 <p class="roboto" id="trav8-text">-</p>
                             </li>
                             <li id="trav-info9">
-                                <h4 class="roboto-bold" id="trav9-head">Återkommande:</h4>
+                                <h3 class="roboto-bold" id="trav9-head">Återkommande:</h3>
                                 <p class="roboto" id="trav9-text">-</p>
                             </li>
                             <li id="trav-info10">
-                                <h4 class="roboto-bold" id="trav10-head">Övrig information:</h4>
+                                <h3 class="roboto-bold" id="trav10-head">Övrig information:</h3>
                                 <p class="roboto" id="trav10-text">Svårt att gå, stå gärna nära porten</p>
                             </li>
                         </ul>
@@ -126,8 +130,8 @@
         </main>
         <footer>
             <div id="footer-start">
-                <p class="roboto" id="footertext1">© Din Färd AB.</p>
-                <p class="roboto" id="footertext2">Färdtjänst för dina behov</p>
+                <h3 class="roboto" id="footertext1">© Din Färd AB.</h3>
+                <h3 class="roboto" id="footertext2">Färdtjänst för dina behov</h3>
             </div>
             <section id="footer-section">
                 <h4 class="roboto-bold"><a id="fotlink1" href="contact.html">Kontakt</a></h4>
