@@ -983,7 +983,7 @@ input[type="checkbox"] {
 #information6-head {
     display: grid;
     justify-self: center;
-    font-size: 170%;
+    font-size: 200%;
     margin-top: 3%;
     margin-bottom: 0;
     color: white;
@@ -1000,22 +1000,16 @@ input[type="checkbox"] {
 #info1-text4,
 #info2-text1,
 #info2-text2,
-#info2-text3,
 #info2-text4,
 #info2-text5,
-#info2-text6,
 #info2-text7,
 #info2-text8,
-#info3-text1,
 #info3-text2,
-#info3-text3,
 #info3-text4,
-#info3-text5,
 #info3-text6,
 #info3-text7,
 #info4-text1,
 #info4-text2,
-#info4-text3,
 #info4-text4,
 #info4-text5,
 #info6-text1,
@@ -1029,6 +1023,18 @@ input[type="checkbox"] {
 #info9-text2,
 #info9-text3 {
     max-width: 58ch;
+}
+
+
+#info2-text3,
+#info2-text6,
+#info3-text1,
+#info3-text3,
+#info3-text5,
+#info4-text3,
+#info4-text4 {
+    max-width: 58ch;
+    font-size: 120%;
 }
 
 
