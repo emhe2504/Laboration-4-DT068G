@@ -15,9 +15,13 @@
     <div id="container">
         <header id="easy-header">
             <a href="index.html"><img id="logo" src="fardlogo.svg" alt="Logotyp för webbplatsen"></a>
-            <p class="roboto-bold" id="startsida"><a id="startsida-link" href="index.html">Startsida</a></p>
+            <nav aria-label="Förstasidan" id="startsida">
+                <a id="startsida-link" class="roboto-bold" href="index.html">Startsida</a>
+            </nav>
             <img id="search" src="sok.svg" alt="Sök på webbplatsen">
-            <p class="roboto-bold" id="login"><a id="login-link" href="mypages.html">Mina sidor</a></p>
+            <nav aria-label="Inloggningssida" id="login">
+            <a id="login-link" class="roboto-bold" href="mypages.html">Mina sidor</a>
+            </nav>
         </header>
         <main>
             <div id="navigation-easy">
@@ -35,7 +39,7 @@
                 </ul>
             </div>
             <section id="booking-section">
-                <h3 class="roboto-bold" id="booking-head">Boka färdtjänst</h3>
+                <h1 class="roboto-bold" id="booking-head">Boka färdtjänst</h1>
                 <form>
                     <ul id="form-list">
                         <li id="travel-li">
@@ -81,8 +85,8 @@
         </main>
         <footer>
             <div id="footer-start">
-                <p class="roboto" id="footertext1">© Din Färd AB.</p>
-                <p class="roboto" id="footertext2">Färdtjänst för dina behov</p>
+                <h2 class="roboto" id="footertext1">© Din Färd AB.</h2>
+                <h3 class="roboto" id="footertext2">Färdtjänst för dina behov</h3>
             </div>
             <section id="footer-section">
                 <h4 class="roboto-bold"><a id="fotlink1" href="contact.html">Kontakt</a></h4>

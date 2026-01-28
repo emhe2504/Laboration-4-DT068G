@@ -1106,7 +1106,13 @@ footer {
     margin-top: 2%;
 }
 
-#footertext1,
+#footertext1 {
+    display: grid;
+    justify-self: center;
+    color: white;
+    font-size: 130%;
+}
+
 #footertext2 {
     display: grid;
     justify-self: center;
