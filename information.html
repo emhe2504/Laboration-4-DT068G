@@ -15,9 +15,13 @@
     <div id="container">
         <header id="easy-header">
             <a href="index.html"><img id="logo" src="fardlogo.svg" alt="Logotyp för webbplatsen"></a>
-            <p class="roboto-bold" id="startsida"><a id="startsida-link" href="index.html">Startsida</a></p>
+            <nav aria-label="Förstasidan" id="startsida">
+                <a id="startsida-link" class="roboto-bold" href="index.html">Startsida</a>
+            </nav>
             <img id="search" src="sok.svg" alt="Sök på webbplatsen">
-            <p class="roboto-bold" id="login"><a id="login-link" href="mypages.html">Mina sidor</a></p>
+            <nav aria-label="Inloggningssida" id="login">
+                <a id="login-link" class="roboto-bold" href="mypages.html">Mina sidor</a>
+            </nav>
         </header>
         <main>
             <div id="navigation-easy">
@@ -31,7 +35,8 @@
                     <li class="roboto-bold" id="easy-3"><a id="link-3" class="active" href="information.html">Viktig
                             information &#x1F4C3;</a></li>
                     <li class="roboto-bold" id="easy-4"><a id="link-4" href="contact.html">Kontakt &#128222;</a></li>
-                    <li id="easy-5"><input type="button" id="close-easy" value="Stäng meny" class="roboto-bold hidden"></li>
+                    <li id="easy-5"><input type="button" id="close-easy" value="Stäng meny" class="roboto-bold hidden">
+                    </li>
                 </ul>
             </div>
             <section id="information-section">
